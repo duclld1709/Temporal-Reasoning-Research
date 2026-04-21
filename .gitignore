@@ -6,7 +6,6 @@
 # DATASETS & DATA FILES (usually too large)
 # ============================================================================
 Dataset/
-data/
 *.csv
 *.tsv
 *.txt

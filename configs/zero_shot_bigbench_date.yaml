@@ -1,0 +1,11 @@
+experiment_name: zero_shot_bigbench_date
+method: zero_shot
+dataset: bigbench_date
+seed: 42
+model_name: Qwen/Qwen3-8B
+dtype: bfloat16
+enable_thinking: false
+k_shot: 0
+max_samples: default   # = toàn bộ 369 examples
+output_dir: outputs
+progress_every: 50

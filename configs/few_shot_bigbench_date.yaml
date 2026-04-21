@@ -1,0 +1,11 @@
+experiment_name: few_shot_bigbench_date_k3
+method: few_shot
+dataset: bigbench_date
+seed: 42
+model_name: Qwen/Qwen3-8B
+dtype: bfloat16
+enable_thinking: false
+k_shot: 3
+max_samples: default
+output_dir: outputs
+progress_every: 50

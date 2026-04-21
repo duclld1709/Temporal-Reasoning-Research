@@ -33,7 +33,7 @@ def build_record(
     extracted = extract(task, language, raw_output)
     gold_norm = normalize_gold(task, language, sample["gold"])
     correct = (extracted == gold_norm) if extracted is not None else False
-    return {
+    rec = {
         "sample_id": sample["sample_id"],
         "task": task,
         "language": language,
@@ -46,3 +46,10 @@ def build_record(
         "correct": correct,
         "elapsed_sec": elapsed_sec,
     }
+    # Thêm candidate_answer cho task duration
+    if task == "duration":
+        rec["candidate_answer"] = sample["meta"].get("candidate_answer", "")
+    # Thêm context cho task date_arith (nếu có)
+    if task == "date_arith" and "context" in sample:
+        rec["context"] = sample["context"]
+    return rec

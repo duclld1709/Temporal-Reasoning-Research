@@ -5,10 +5,11 @@
 # ============================================================================
 # DATASETS & DATA FILES (usually too large)
 # ============================================================================
-Dataset/
-*.csv
-*.tsv
-*.txt
+
+# Dataset/
+# *.csv
+# *.tsv
+# *.txt
 !README.txt
 !requirements.txt
 

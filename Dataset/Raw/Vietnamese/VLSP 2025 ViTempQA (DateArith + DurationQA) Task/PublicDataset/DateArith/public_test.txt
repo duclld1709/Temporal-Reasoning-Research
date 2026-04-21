@@ -1,0 +1,500 @@
+{"question": "Giả sử bạn đang ở tháng 11, 1266, thời gian sau 7 năm 11 tháng, thì là thời điểm nào?", "context": ""}
+{"question": "Hãy tính thời điểm 7 năm và 2 tháng sau tháng 1, 1613", "context": ""}
+{"question": "Thời gian 7 năm và 4 tháng trước tháng 1, 1096 là khi nào?", "context": ""}
+{"question": "Giả sử bạn đang ở tháng 8, 1954, thời gian trước 1 năm 8 tháng, thì là thời điểm nào?", "context": ""}
+{"question": "Ngày tháng nào sẽ là 6 năm 10 tháng trước tháng 7, 1318?", "context": ""}
+{"question": "Giả sử bạn đang ở tháng 5, 1292, thời gian sau 6 năm 10 tháng, thì là thời điểm nào?", "context": ""}
+{"question": "Ngày tháng nào sẽ là 9 năm 2 tháng trước tháng 11, 1159?", "context": ""}
+{"question": "Bạn có thể dự đoán thời điểm sau 9 năm 11 tháng từ tháng 5, 1688 là khi nào không?", "context": ""}
+{"question": "Ngày tháng nào sẽ là 1 năm 11 tháng sau tháng 5, 1876?", "context": ""}
+{"question": "Hãy tính thời điểm 4 năm và 9 tháng trước tháng 8, 1384", "context": ""}
+{"question": "Ngày tháng nào sẽ là 6 năm 9 tháng sau tháng 5, 1468?", "context": ""}
+{"question": "Thời gian 7 năm và 5 tháng sau tháng 6, 1749 là khi nào?", "context": ""}
+{"question": "Bạn có thể dự đoán thời điểm trước 8 năm 5 tháng từ tháng 8, 1746 là khi nào không?", "context": ""}
+{"question": "Ngày tháng nào sẽ là 10 năm 7 tháng sau tháng 9, 1355?", "context": ""}
+{"question": "Giả sử bạn đang ở tháng 5, 1895, thời gian trước 8 năm 8 tháng, thì là thời điểm nào?", "context": ""}
+{"question": "Hãy tính thời điểm 9 năm và 9 tháng trước tháng 10, 1018", "context": ""}
+{"question": "Bạn có thể dự đoán thời điểm trước 4 năm 4 tháng từ tháng 1, 1076 là khi nào không?", "context": ""}
+{"question": "Ngày tháng nào sẽ là 3 năm 7 tháng sau tháng 12, 1747?", "context": ""}
+{"question": "Giả sử bạn đang ở tháng 4, 1465, thời gian sau 9 năm 6 tháng, thì là thời điểm nào?", "context": ""}
+{"question": "Thời gian 8 tháng sau tháng 9, 1785 là khi nào?", "context": ""}
+{"question": "Bạn có thể dự đoán thời điểm trước 11 tháng từ tháng 11, 1833 là khi nào không?", "context": ""}
+{"question": "Thời gian 3 năm sau tháng 10, 1060 là khi nào?", "context": ""}
+{"question": "Ngày tháng nào sẽ là 3 năm 6 tháng sau tháng 5, 1652?", "context": ""}
+{"question": "Bạn có thể dự đoán thời điểm sau 10 năm 1 tháng từ tháng 6, 1634 là khi nào không?", "context": ""}
+{"question": "Giả sử bạn đang ở tháng 5, 1336, thời gian sau 6 năm 12 tháng, thì là thời điểm nào?", "context": ""}
+{"question": "Ngày tháng nào sẽ là 3 năm 2 tháng sau tháng 3, 1774?", "context": ""}
+{"question": "Thời gian 6 năm và 6 tháng trước tháng 1, 1420 là khi nào?", "context": ""}
+{"question": "Bạn có thể dự đoán thời điểm trước 7 năm 9 tháng từ tháng 4, 1868 là khi nào không?", "context": ""}
+{"question": "Thời gian 9 năm và 4 tháng sau tháng 7, 1840 là khi nào?", "context": ""}
+{"question": "Giả sử bạn đang ở tháng 5, 1912, thời gian trước 3 năm 11 tháng, thì là thời điểm nào?", "context": ""}
+{"question": "Ngày tháng nào sẽ là 1 năm 3 tháng trước tháng 8, 1001?", "context": ""}
+{"question": "Giả sử bạn đang ở tháng 5, 1499, thời gian trước 9 năm 5 tháng, thì là thời điểm nào?", "context": ""}
+{"question": "Ngày tháng nào sẽ là 5 năm 10 tháng sau tháng 7, 1911?", "context": ""}
+{"question": "Bạn có thể dự đoán thời điểm sau 3 năm 4 tháng từ tháng 7, 1906 là khi nào không?", "context": ""}
+{"question": "Thời gian 5 năm và 9 tháng trước tháng 12, 1103 là khi nào?", "context": ""}
+{"question": "Ngày tháng nào sẽ là 3 năm sau tháng 5, 1178?", "context": ""}
+{"question": "Hãy tính thời điểm 4 năm và 11 tháng sau tháng 10, 1562", "context": ""}
+{"question": "Ngày tháng nào sẽ là 6 năm trước tháng 2, 1245?", "context": ""}
+{"question": "Hãy tính thời điểm 6 năm sau tháng 2, 1879", "context": ""}
+{"question": "Bạn có thể dự đoán thời điểm sau 9 tháng từ tháng 7, 1468 là khi nào không?", "context": ""}
+{"question": "Thời gian 3 năm và 7 tháng trước tháng 10, 1895 là khi nào?", "context": ""}
+{"question": "Giả sử bạn đang ở tháng 5, 1656, thời gian sau 9 năm 4 tháng, thì là thời điểm nào?", "context": ""}
+{"question": "Thời gian 2 năm và 2 tháng trước tháng 8, 1252 là khi nào?", "context": ""}
+{"question": "Giả sử bạn đang ở tháng 11, 1960, thời gian sau 6 năm 8 tháng, thì là thời điểm nào?", "context": ""}
+{"question": "Ngày tháng nào sẽ là 1 năm sau tháng 10, 1648?", "context": ""}
+{"question": "Thời gian 8 năm và 11 tháng trước tháng 7, 1028 là khi nào?", "context": ""}
+{"question": "Hãy tính thời điểm 8 năm và 10 tháng sau tháng 7, 1841", "context": ""}
+{"question": "Ngày tháng nào sẽ là 7 năm 2 tháng sau tháng 2, 1839?", "context": ""}
+{"question": "Thời gian 8 năm và 8 tháng trước tháng 5, 1672 là khi nào?", "context": ""}
+{"question": "Bạn có thể dự đoán thời điểm sau 10 năm 4 tháng từ tháng 9, 1072 là khi nào không?", "context": ""}
+{"question": "Ngày tháng nào sẽ là 7 năm 12 tháng trước tháng 7, 1111?", "context": ""}
+{"question": "Bạn có thể dự đoán thời điểm sau 5 năm 6 tháng từ tháng 2, 1440 là khi nào không?", "context": ""}
+{"question": "Hãy tính thời điểm 6 năm sau tháng 10, 1837", "context": ""}
+{"question": "Giả sử bạn đang ở tháng 12, 1440, thời gian trước 6 năm 3 tháng, thì là thời điểm nào?", "context": ""}
+{"question": "Ngày tháng nào sẽ là 5 năm 3 tháng sau tháng 2, 1790?", "context": ""}
+{"question": "Bạn có thể dự đoán thời điểm sau 8 năm 8 tháng từ tháng 12, 1600 là khi nào không?", "context": ""}
+{"question": "Thời gian 3 năm và 11 tháng trước tháng 9, 1680 là khi nào?", "context": ""}
+{"question": "Hãy tính thời điểm 9 năm và 7 tháng sau tháng 6, 1107", "context": ""}
+{"question": "Ngày tháng nào sẽ là 6 tháng sau tháng 7, 1176?", "context": ""}
+{"question": "Hãy tính thời điểm 8 năm và 11 tháng sau tháng 6, 1293", "context": ""}
+{"question": "Bạn có thể dự đoán thời điểm trước 3 năm 6 tháng từ tháng 8, 1343 là khi nào không?", "context": ""}
+{"question": "Hãy tính thời điểm 10 năm và 8 tháng trước tháng 6, 1148", "context": ""}
+{"question": "Giả sử bạn đang ở tháng 1, 1979, thời gian trước 4 năm 5 tháng, thì là thời điểm nào?", "context": ""}
+{"question": "Hãy tính thời điểm 10 tháng sau tháng 3, 1477.", "context": ""}
+{"question": "Ngày tháng nào sẽ là 10 năm 4 tháng trước tháng 3, 1160?", "context": ""}
+{"question": "Hãy tính thời điểm 7 năm và 3 tháng sau tháng 11, 1298", "context": ""}
+{"question": "Ngày tháng nào sẽ là 1 năm 8 tháng trước tháng 10, 1110?", "context": ""}
+{"question": "Bạn có thể dự đoán thời điểm sau 8 tháng từ tháng 10, 1106 là khi nào không?", "context": ""}
+{"question": "Giả sử bạn đang ở tháng 7, 1651, thời gian trước 10 năm 12 tháng, thì là thời điểm nào?", "context": ""}
+{"question": "Bạn có thể dự đoán thời điểm sau 3 năm 2 tháng từ tháng 10, 1056 là khi nào không?", "context": ""}
+{"question": "Giả sử bạn đang ở tháng 11, 1899, thời gian sau 3 năm 4 tháng, thì là thời điểm nào?", "context": ""}
+{"question": "Hãy tính thời điểm 3 năm và 4 tháng sau tháng 3, 1086", "context": ""}
+{"question": "Thời gian 4 năm và 2 tháng sau tháng 5, 1549 là khi nào?", "context": ""}
+{"question": "Ngày tháng nào sẽ là 3 năm 9 tháng trước tháng 10, 1786?", "context": ""}
+{"question": "Giả sử bạn đang ở tháng 2, 1500, thời gian trước 9 năm 2 tháng, thì là thời điểm nào?", "context": ""}
+{"question": "Hãy tính thời điểm 1 năm và 5 tháng sau tháng 11, 1110", "context": ""}
+{"question": "Ngày tháng nào sẽ là 6 năm 12 tháng sau tháng 7, 1592?", "context": ""}
+{"question": "Bạn có thể dự đoán thời điểm trước 5 năm từ tháng 5, 1955 là khi nào không?", "context": ""}
+{"question": "Ngày tháng nào sẽ là 1 tháng sau tháng 6, 1914?", "context": ""}
+{"question": "Hãy tính thời điểm 4 năm và 6 tháng sau tháng 9, 1903", "context": ""}
+{"question": "Thời gian 7 năm và 2 tháng sau tháng 3, 1769 là khi nào?", "context": ""}
+{"question": "Hãy tính thời điểm 5 năm và 11 tháng sau tháng 2, 1713", "context": ""}
+{"question": "Thời gian 8 năm và 5 tháng sau tháng 10, 1686 là khi nào?", "context": ""}
+{"question": "Ngày tháng nào sẽ là 5 năm 7 tháng trước tháng 6, 1286?", "context": ""}
+{"question": "Giả sử bạn đang ở tháng 1, 1826, thời gian trước 9 năm 10 tháng, thì là thời điểm nào?", "context": ""}
+{"question": "Ngày tháng nào sẽ là 4 năm trước tháng 9, 1582?", "context": ""}
+{"question": "Giả sử bạn đang ở tháng 6, 1307, thời gian sau 4 năm 2 tháng, thì là thời điểm nào?", "context": ""}
+{"question": "Hãy tính thời điểm 5 năm và 7 tháng trước tháng 10, 1876", "context": ""}
+{"question": "Giả sử bạn đang ở tháng 4, 1468, thời gian sau 2 năm 10 tháng, thì là thời điểm nào?", "context": ""}
+{"question": "Thời gian 10 năm và 6 tháng trước tháng 6, 1585 là khi nào?", "context": ""}
+{"question": "Ngày tháng nào sẽ là 6 năm 5 tháng trước tháng 12, 1682?", "context": ""}
+{"question": "Giả sử bạn đang ở tháng 4, 1985, thời gian trước 9 năm 9 tháng, thì là thời điểm nào?", "context": ""}
+{"question": "Thời gian 6 tháng trước tháng 9, 1129 là khi nào?", "context": ""}
+{"question": "Bạn có thể dự đoán thời điểm sau 10 năm từ tháng 4, 1512 là khi nào không?", "context": ""}
+{"question": "Hãy tính thời điểm 5 năm và 5 tháng sau tháng 10, 1858", "context": ""}
+{"question": "Giả sử bạn đang ở tháng 6, 1335, thời gian trước 9 năm 10 tháng, thì là thời điểm nào?", "context": ""}
+{"question": "Hãy tính thời điểm 6 năm và 3 tháng sau tháng 4, 1583", "context": ""}
+{"question": "Thời gian 6 năm và 11 tháng sau tháng 6, 1054 là khi nào?", "context": ""}
+{"question": "Ngày tháng nào sẽ là 5 tháng sau tháng 6, 1345?", "context": ""}
+{"question": "Bạn có thể dự đoán thời điểm trước 4 năm từ tháng 12, 1207 là khi nào không?", "context": ""}
+{"question": "Ngày tháng nào sẽ là 5 năm 8 tháng trước tháng 5, 1985?", "context": ""}
+{"question": "Hãy tính thời điểm 7 năm và 1 tháng trước tháng 11, 1208", "context": ""}
+{"question": "Giả sử bạn đang ở tháng 4, 1152, thời gian sau 6 năm 12 tháng, thì là thời điểm nào?", "context": ""}
+{"question": "Ngày tháng nào sẽ là 4 tháng trước tháng 12, 1641?", "context": ""}
+{"question": "Bạn có thể dự đoán thời điểm sau 6 năm 1 tháng từ tháng 8, 1065 là khi nào không?", "context": ""}
+{"question": "Ngày tháng nào sẽ là 8 năm 3 tháng trước tháng 2, 1005?", "context": ""}
+{"question": "Thời gian 3 năm và 5 tháng trước tháng 12, 1115 là khi nào?", "context": ""}
+{"question": "Giả sử bạn đang ở tháng 9, 1695, thời gian trước 6 năm 11 tháng, thì là thời điểm nào?", "context": ""}
+{"question": "Ngày tháng nào sẽ là 1 năm 11 tháng sau tháng 1, 2000?", "context": ""}
+{"question": "Bạn có thể dự đoán thời điểm trước 1 năm 3 tháng từ tháng 10, 1099 là khi nào không?", "context": ""}
+{"question": "Hãy tính thời điểm 3 năm và 6 tháng sau tháng 3, 1189", "context": ""}
+{"question": "Ngày tháng nào sẽ là 9 năm 8 tháng sau tháng 8, 1415?", "context": ""}
+{"question": "Bạn có thể dự đoán thời điểm sau 8 năm 12 tháng từ tháng 1, 1792 là khi nào không?", "context": ""}
+{"question": "Thời gian 5 tháng sau tháng 1, 1194 là khi nào?", "context": ""}
+{"question": "Bạn có thể dự đoán thời điểm sau 4 năm 7 tháng từ tháng 10, 1464 là khi nào không?", "context": ""}
+{"question": "Hãy tính thời điểm 1 tháng trước tháng 7, 1238.", "context": ""}
+{"question": "Ngày tháng nào sẽ là 3 năm 4 tháng trước tháng 5, 1965?", "context": ""}
+{"question": "Hãy tính thời điểm 2 năm và 5 tháng trước tháng 1, 1316", "context": ""}
+{"question": "Giả sử bạn đang ở tháng 2, 1170, thời gian sau 5 năm 8 tháng, thì là thời điểm nào?", "context": ""}
+{"question": "Bạn có thể dự đoán thời điểm trước 4 năm 4 tháng từ tháng 3, 1724 là khi nào không?", "context": ""}
+{"question": "Hãy tính thời điểm 1 năm và 6 tháng trước tháng 11, 1939", "context": ""}
+{"question": "Thời gian 7 năm và 2 tháng sau tháng 1, 1968 là khi nào?", "context": ""}
+{"question": "Ngày tháng nào sẽ là 7 năm 9 tháng trước tháng 3, 1625?", "context": ""}
+{"question": "Bạn có thể dự đoán thời điểm sau 10 năm 7 tháng từ tháng 2, 1507 là khi nào không?", "context": ""}
+{"question": "Hãy tính thời điểm 7 năm và 1 tháng sau tháng 12, 1644", "context": ""}
+{"question": "Giả sử bạn đang ở tháng 8, 1563, thời gian trước 2 năm 8 tháng, thì là thời điểm nào?", "context": ""}
+{"question": "Thời gian 7 năm và 3 tháng sau tháng 7, 1308 là khi nào?", "context": ""}
+{"question": "Bạn có thể dự đoán thời điểm sau 6 năm 7 tháng từ tháng 10, 1992 là khi nào không?", "context": ""}
+{"question": "Thời gian 3 năm và 2 tháng trước tháng 6, 1898 là khi nào?", "context": ""}
+{"question": "Hãy tính thời điểm 6 năm và 3 tháng trước tháng 12, 1905", "context": ""}
+{"question": "Thời gian 1 năm và 8 tháng sau tháng 10, 1144 là khi nào?", "context": ""}
+{"question": "Hãy tính thời điểm 6 tháng trước tháng 8, 1795.", "context": ""}
+{"question": "Giả sử bạn đang ở tháng 3, 1568, thời gian trước 4 năm 8 tháng, thì là thời điểm nào?", "context": ""}
+{"question": "Hãy tính thời điểm 3 năm và 2 tháng sau tháng 1, 1510", "context": ""}
+{"question": "Giả sử bạn đang ở tháng 4, 1306, thời gian trước 11 tháng, thì là thời điểm nào?", "context": ""}
+{"question": "Bạn có thể dự đoán thời điểm trước 10 năm 2 tháng từ tháng 10, 1998 là khi nào không?", "context": ""}
+{"question": "Hãy tính thời điểm 6 năm và 5 tháng trước tháng 3, 1602", "context": ""}
+{"question": "Bạn có thể dự đoán thời điểm trước 2 năm 5 tháng từ tháng 11, 1132 là khi nào không?", "context": ""}
+{"question": "Ngày tháng nào sẽ là 7 năm sau tháng 1, 1670?", "context": ""}
+{"question": "Thời gian 4 tháng sau tháng 12, 1539 là khi nào?", "context": ""}
+{"question": "Ngày tháng nào sẽ là 8 năm 11 tháng sau tháng 3, 1521?", "context": ""}
+{"question": "Giả sử bạn đang ở tháng 7, 1187, thời gian sau 4 năm 2 tháng, thì là thời điểm nào?", "context": ""}
+{"question": "Ngày tháng nào sẽ là 4 năm 6 tháng trước tháng 3, 1138?", "context": ""}
+{"question": "Bạn có thể dự đoán thời điểm trước 2 năm 6 tháng từ tháng 6, 1681 là khi nào không?", "context": ""}
+{"question": "Ngày tháng nào sẽ là 9 năm 3 tháng trước tháng 10, 1704?", "context": ""}
+{"question": "Bạn có thể dự đoán thời điểm sau 4 năm 3 tháng từ tháng 6, 1709 là khi nào không?", "context": ""}
+{"question": "Thời gian 3 năm và 7 tháng trước tháng 9, 1575 là khi nào?", "context": ""}
+{"question": "Giả sử bạn đang ở tháng 8, 1554, thời gian sau 8 năm 9 tháng, thì là thời điểm nào?", "context": ""}
+{"question": "Thời gian 7 năm trước tháng 2, 1392 là khi nào?", "context": ""}
+{"question": "Bạn có thể dự đoán thời điểm sau 9 năm 5 tháng từ tháng 9, 1087 là khi nào không?", "context": ""}
+{"question": "Hãy tính thời điểm 3 năm và 2 tháng sau tháng 12, 1668", "context": ""}
+{"question": "Ngày tháng nào sẽ là 10 năm sau tháng 9, 1284?", "context": ""}
+{"question": "Bạn có thể dự đoán thời điểm trước 9 năm 12 tháng từ tháng 12, 1525 là khi nào không?", "context": ""}
+{"question": "Hãy tính thời điểm 9 năm và 10 tháng sau tháng 1, 1650", "context": ""}
+{"question": "Thời gian 9 năm và 9 tháng sau tháng 11, 1723 là khi nào?", "context": ""}
+{"question": "Hãy tính thời điểm 1 năm và 6 tháng sau tháng 2, 1723", "context": ""}
+{"question": "Ngày tháng nào sẽ là 6 năm 1 tháng sau tháng 8, 1466?", "context": ""}
+{"question": "Thời gian 7 năm và 9 tháng trước tháng 9, 1910 là khi nào?", "context": ""}
+{"question": "Giả sử bạn đang ở tháng 4, 1827, thời gian trước 3 năm 10 tháng, thì là thời điểm nào?", "context": ""}
+{"question": "Hãy tính thời điểm 5 năm và 2 tháng sau tháng 11, 1477", "context": ""}
+{"question": "Thời gian 1 năm và 5 tháng sau tháng 11, 1444 là khi nào?", "context": ""}
+{"question": "Giả sử bạn đang ở tháng 10, 1086, thời gian sau 2 năm 1 tháng, thì là thời điểm nào?", "context": ""}
+{"question": "Thời gian 8 năm và 5 tháng trước tháng 7, 1843 là khi nào?", "context": ""}
+{"question": "Ngày tháng nào sẽ là 9 năm 11 tháng sau tháng 12, 1904?", "context": ""}
+{"question": "Bạn có thể dự đoán thời điểm trước 1 năm 8 tháng từ tháng 10, 1313 là khi nào không?", "context": ""}
+{"question": "Thời gian 9 năm và 12 tháng sau tháng 3, 1850 là khi nào?", "context": ""}
+{"question": "Giả sử bạn đang ở tháng 9, 1716, thời gian trước 10 năm 4 tháng, thì là thời điểm nào?", "context": ""}
+{"question": "Bạn có thể dự đoán thời điểm trước 7 năm 2 tháng từ tháng 12, 1849 là khi nào không?", "context": ""}
+{"question": "Ngày tháng nào sẽ là 6 năm 9 tháng sau tháng 1, 1748?", "context": ""}
+{"question": "Hãy tính thời điểm 2 năm và 6 tháng trước tháng 3, 1222", "context": ""}
+{"question": "Ngày tháng nào sẽ là 4 năm 9 tháng sau tháng 3, 1020?", "context": ""}
+{"question": "Hãy tính thời điểm 1 năm và 5 tháng sau tháng 1, 1803", "context": ""}
+{"question": "Bạn có thể dự đoán thời điểm sau 5 năm 11 tháng từ tháng 4, 1765 là khi nào không?", "context": ""}
+{"question": "Ngày tháng nào sẽ là 10 năm 7 tháng trước tháng 11, 1081?", "context": ""}
+{"question": "Giả sử bạn đang ở tháng 9, 1776, thời gian sau 6 năm 7 tháng, thì là thời điểm nào?", "context": ""}
+{"question": "Bạn có thể dự đoán thời điểm sau 7 năm 7 tháng từ tháng 6, 1903 là khi nào không?", "context": ""}
+{"question": "Thời gian 2 năm và 2 tháng sau tháng 2, 1782 là khi nào?", "context": ""}
+{"question": "Ngày tháng nào sẽ là 6 năm 1 tháng sau tháng 3, 1121?", "context": ""}
+{"question": "Thời gian 7 năm trước tháng 7, 1867 là khi nào?", "context": ""}
+{"question": "Ngày tháng nào sẽ là 2 năm 10 tháng sau tháng 3, 1397?", "context": ""}
+{"question": "Bạn có thể dự đoán thời điểm trước 10 tháng từ tháng 3, 1316 là khi nào không?", "context": ""}
+{"question": "Ngày tháng nào sẽ là 10 năm sau tháng 8, 1432?", "context": ""}
+{"question": "Bạn có thể dự đoán thời điểm trước 2 năm 2 tháng từ tháng 2, 1103 là khi nào không?", "context": ""}
+{"question": "Thời gian 2 năm và 6 tháng trước tháng 8, 1164 là khi nào?", "context": ""}
+{"question": "Ngày tháng nào sẽ là 3 năm 1 tháng trước tháng 7, 1701?", "context": ""}
+{"question": "Bạn có thể dự đoán thời điểm trước 10 năm 2 tháng từ tháng 3, 1807 là khi nào không?", "context": ""}
+{"question": "Giả sử bạn đang ở tháng 4, 1208, thời gian sau 7 năm 9 tháng, thì là thời điểm nào?", "context": ""}
+{"question": "Thời gian 8 năm và 8 tháng sau tháng 10, 1156 là khi nào?", "context": ""}
+{"question": "Hãy tính thời điểm 10 năm và 7 tháng sau tháng 4, 1111", "context": ""}
+{"question": "Thời gian 1 năm và 2 tháng sau tháng 2, 1630 là khi nào?", "context": ""}
+{"question": "Ngày tháng nào sẽ là 6 năm 8 tháng trước tháng 3, 1490?", "context": ""}
+{"question": "Giả sử bạn đang ở tháng 12, 1638, thời gian sau 2 năm 8 tháng, thì là thời điểm nào?", "context": ""}
+{"question": "Ngày tháng nào sẽ là 10 năm 4 tháng sau tháng 7, 1144?", "context": ""}
+{"question": "Hãy tính thời điểm 7 năm và 5 tháng sau tháng 10, 1762", "context": ""}
+{"question": "Ngày tháng nào sẽ là 9 năm 9 tháng sau tháng 10, 1846?", "context": ""}
+{"question": "Bạn có thể dự đoán thời điểm sau 2 năm từ tháng 12, 1276 là khi nào không?", "context": ""}
+{"question": "Giả sử bạn đang ở tháng 8, 1913, thời gian trước 8 năm 1 tháng, thì là thời điểm nào?", "context": ""}
+{"question": "Bạn có thể dự đoán thời điểm trước 10 năm 10 tháng từ tháng 8, 1763 là khi nào không?", "context": ""}
+{"question": "Thời gian 8 năm và 6 tháng trước tháng 3, 1911 là khi nào?", "context": ""}
+{"question": "Bạn có thể dự đoán thời điểm sau 2 năm 9 tháng từ tháng 4, 1572 là khi nào không?", "context": ""}
+{"question": "Thời gian 7 tháng trước tháng 12, 1319 là khi nào?", "context": ""}
+{"question": "Hãy tính thời điểm 6 năm và 9 tháng trước tháng 12, 1022", "context": ""}
+{"question": "Giả sử bạn đang ở tháng 7, 1948, thời gian trước 8 năm 2 tháng, thì là thời điểm nào?", "context": ""}
+{"question": "Bạn có thể dự đoán thời điểm trước 10 năm 1 tháng từ tháng 10, 1472 là khi nào không?", "context": ""}
+{"question": "Thời gian 9 năm trước tháng 2, 1809 là khi nào?", "context": ""}
+{"question": "Hãy tính thời điểm 10 năm và 8 tháng trước tháng 7, 1833", "context": ""}
+{"question": "Ngày tháng nào sẽ là 2 năm 9 tháng trước tháng 2, 1710?", "context": ""}
+{"question": "Bạn có thể dự đoán thời điểm sau 2 năm 5 tháng từ tháng 12, 1933 là khi nào không?", "context": ""}
+{"question": "Hãy tính thời điểm 7 năm và 9 tháng trước tháng 10, 1865", "context": ""}
+{"question": "Bạn có thể dự đoán thời điểm trước 6 năm 6 tháng từ tháng 8, 1207 là khi nào không?", "context": ""}
+{"question": "Thời gian 7 năm và 3 tháng sau tháng 10, 1165 là khi nào?", "context": ""}
+{"question": "Bạn có thể dự đoán thời điểm trước 10 năm 2 tháng từ tháng 12, 1861 là khi nào không?", "context": ""}
+{"question": "Hãy tính thời điểm 10 năm và 5 tháng sau tháng 11, 1335", "context": ""}
+{"question": "Ngày tháng nào sẽ là 2 năm trước tháng 12, 1162?", "context": ""}
+{"question": "Thời gian 7 năm và 4 tháng trước tháng 2, 1350 là khi nào?", "context": ""}
+{"question": "Ngày tháng nào sẽ là 1 năm 1 tháng sau tháng 10, 1983?", "context": ""}
+{"question": "Hãy tính thời điểm 6 năm và 8 tháng sau tháng 6, 1041", "context": ""}
+{"question": "Bạn có thể dự đoán thời điểm trước 8 năm 6 tháng từ tháng 1, 1495 là khi nào không?", "context": ""}
+{"question": "Hãy tính thời điểm 3 năm và 12 tháng sau tháng 6, 1467", "context": ""}
+{"question": "Giả sử bạn đang ở tháng 5, 1594, thời gian sau 1 năm 6 tháng, thì là thời điểm nào?", "context": ""}
+{"question": "Bạn có thể dự đoán thời điểm sau 9 năm 10 tháng từ tháng 4, 1719 là khi nào không?", "context": ""}
+{"question": "Thời gian 3 năm và 1 tháng trước tháng 1, 1822 là khi nào?", "context": ""}
+{"question": "Ngày tháng nào sẽ là 10 năm trước tháng 6, 1781?", "context": ""}
+{"question": "Giả sử bạn đang ở tháng 12, 1157, thời gian trước 6 năm 7 tháng, thì là thời điểm nào?", "context": ""}
+{"question": "Bạn có thể dự đoán thời điểm trước 10 năm từ tháng 9, 1935 là khi nào không?", "context": ""}
+{"question": "Giả sử bạn đang ở tháng 4, 1549, thời gian sau 7 năm 1 tháng, thì là thời điểm nào?", "context": ""}
+{"question": "Bạn có thể dự đoán thời điểm trước 8 năm 11 tháng từ tháng 4, 1618 là khi nào không?", "context": ""}
+{"question": "Giả sử bạn đang ở tháng 4, 1775, thời gian sau 7 năm 8 tháng, thì là thời điểm nào?", "context": ""}
+{"question": "Ngày tháng nào sẽ là 8 năm 4 tháng sau tháng 5, 1361?", "context": ""}
+{"question": "Bạn có thể dự đoán thời điểm sau 5 năm 12 tháng từ tháng 6, 1946 là khi nào không?", "context": ""}
+{"question": "Thời gian 4 năm và 11 tháng trước tháng 10, 1910 là khi nào?", "context": ""}
+{"question": "Giả sử bạn đang ở tháng 7, 1092, thời gian trước 8 năm 8 tháng, thì là thời điểm nào?", "context": ""}
+{"question": "Thời gian 5 năm và 10 tháng sau tháng 1, 1324 là khi nào?", "context": ""}
+{"question": "Giả sử bạn đang ở tháng 2, 1104, thời gian trước 5 năm 1 tháng, thì là thời điểm nào?", "context": ""}
+{"question": "Bạn có thể dự đoán thời điểm trước 3 năm từ tháng 1, 1540 là khi nào không?", "context": ""}
+{"question": "Ngày tháng nào sẽ là 7 năm 9 tháng trước tháng 11, 1732?", "context": ""}
+{"question": "Hãy tính thời điểm 2 năm và 4 tháng sau tháng 10, 1876", "context": ""}
+{"question": "Giả sử bạn đang ở tháng 4, 1364, thời gian trước 3 năm 10 tháng, thì là thời điểm nào?", "context": ""}
+{"question": "Hãy tính thời điểm 6 năm và 7 tháng trước tháng 8, 1904", "context": ""}
+{"question": "Bạn có thể dự đoán thời điểm trước 3 năm 3 tháng từ tháng 11, 1309 là khi nào không?", "context": ""}
+{"question": "Giả sử bạn đang ở tháng 10, 1316, thời gian trước 6 tháng, thì là thời điểm nào?", "context": ""}
+{"question": "Bạn có thể dự đoán thời điểm trước 8 năm 9 tháng từ tháng 6, 1277 là khi nào không?", "context": ""}
+{"question": "Ngày tháng nào sẽ là 4 tháng sau tháng 3, 1026?", "context": ""}
+{"question": "Hãy tính thời điểm 10 năm và 7 tháng sau tháng 2, 1648", "context": ""}
+{"question": "Thời gian 5 năm và 9 tháng sau tháng 11, 1288 là khi nào?", "context": ""}
+{"question": "Bạn có thể dự đoán thời điểm sau 6 năm 7 tháng từ tháng 3, 1215 là khi nào không?", "context": ""}
+{"question": "Ngày tháng nào sẽ là 3 năm 3 tháng sau tháng 8, 1646?", "context": ""}
+{"question": "Bạn có thể dự đoán thời điểm trước 1 năm 12 tháng từ tháng 4, 1514 là khi nào không?", "context": ""}
+{"question": "Hãy tính thời điểm 4 năm và 6 tháng trước tháng 4, 1388", "context": ""}
+{"question": "Ngày tháng nào sẽ là 12 tháng trước tháng 4, 1698?", "context": ""}
+{"question": "Bạn có thể dự đoán thời điểm trước 3 năm 5 tháng từ tháng 8, 1303 là khi nào không?", "context": ""}
+{"question": "Giả sử bạn đang ở tháng 11, 1242, thời gian trước 8 năm 9 tháng, thì là thời điểm nào?", "context": ""}
+{"question": "Thời gian 7 năm và 9 tháng trước tháng 10, 1297 là khi nào?", "context": ""}
+{"question": "Bạn có thể dự đoán thời điểm sau 9 năm 9 tháng từ tháng 5, 1696 là khi nào không?", "context": ""}
+{"question": "Hãy tính thời điểm 8 năm và 8 tháng sau tháng 2, 1099", "context": ""}
+{"question": "Ngày tháng nào sẽ là 5 năm 9 tháng trước tháng 11, 1838?", "context": ""}
+{"question": "Giả sử bạn đang ở tháng 8, 1161, thời gian trước 3 năm 5 tháng, thì là thời điểm nào?", "context": ""}
+{"question": "Ngày tháng nào sẽ là 2 năm 6 tháng trước tháng 1, 1207?", "context": ""}
+{"question": "Bạn có thể dự đoán thời điểm sau 1 năm 3 tháng từ tháng 7, 1846 là khi nào không?", "context": ""}
+{"question": "Thời gian 9 năm và 9 tháng trước tháng 7, 1789 là khi nào?", "context": ""}
+{"question": "Hãy tính thời điểm 7 năm và 6 tháng sau tháng 6, 1248", "context": ""}
+{"question": "Thời gian 4 năm và 7 tháng sau tháng 4, 1783 là khi nào?", "context": ""}
+{"question": "Giả sử bạn đang ở tháng 3, 1440, thời gian trước 4 năm 4 tháng, thì là thời điểm nào?", "context": ""}
+{"question": "Ngày tháng nào sẽ là 3 năm 2 tháng sau tháng 2, 1432?", "context": ""}
+{"question": "Giả sử bạn đang ở tháng 11, 1062, thời gian trước 3 năm 4 tháng, thì là thời điểm nào?", "context": ""}
+{"question": "Bạn có thể dự đoán thời điểm sau 8 năm 11 tháng từ tháng 7, 1231 là khi nào không?", "context": ""}
+{"question": "Giả sử bạn đang ở tháng 4, 1830, thời gian trước 5 năm 3 tháng, thì là thời điểm nào?", "context": ""}
+{"question": "Thời gian 6 năm và 6 tháng sau tháng 2, 1649 là khi nào?", "context": ""}
+{"question": "Ngày tháng nào sẽ là 9 năm 2 tháng sau tháng 5, 1868?", "context": ""}
+{"question": "Thời gian 9 năm và 3 tháng trước tháng 8, 1037 là khi nào?", "context": ""}
+{"question": "Ngày tháng nào sẽ là 2 năm 9 tháng trước tháng 6, 1809?", "context": ""}
+{"question": "Giả sử bạn đang ở tháng 4, 1009, thời gian sau 3 năm 2 tháng, thì là thời điểm nào?", "context": ""}
+{"question": "Hãy tính thời điểm 7 năm và 6 tháng sau tháng 8, 1899", "context": ""}
+{"question": "Giả sử bạn đang ở tháng 9, 1746, thời gian trước 4 năm 11 tháng, thì là thời điểm nào?", "context": ""}
+{"question": "Hãy tính thời điểm 1 năm và 1 tháng trước tháng 3, 1620", "context": ""}
+{"question": "Giả sử bạn đang ở tháng 12, 1039, thời gian trước 2 năm 5 tháng, thì là thời điểm nào?", "context": ""}
+{"question": "Hãy tính thời điểm 6 năm và 8 tháng sau tháng 11, 1445", "context": ""}
+{"question": "Ngày tháng nào sẽ là 4 năm 5 tháng trước tháng 4, 1055?", "context": ""}
+{"question": "Hãy tính thời điểm 6 năm và 11 tháng sau tháng 11, 1737", "context": ""}
+{"question": "Giả sử bạn đang ở tháng 11, 1718, thời gian sau 6 năm, thì là thời điểm nào?", "context": ""}
+{"question": "Thời gian 5 năm và 5 tháng sau tháng 4, 1733 là khi nào?", "context": ""}
+{"question": "Hãy tính thời điểm 10 tháng trước tháng 6, 1048.", "context": ""}
+{"question": "Bạn có thể dự đoán thời điểm trước 8 năm 5 tháng từ tháng 4, 1172 là khi nào không?", "context": ""}
+{"question": "Giả sử bạn đang ở tháng 3, 1812, thời gian trước 3 năm 12 tháng, thì là thời điểm nào?", "context": ""}
+{"question": "Hãy tính thời điểm 8 năm sau tháng 1, 1072", "context": ""}
+{"question": "Bạn có thể dự đoán thời điểm trước 5 năm 12 tháng từ tháng 4, 1529 là khi nào không?", "context": ""}
+{"question": "Hãy tính thời điểm 5 năm và 9 tháng trước tháng 12, 1799", "context": ""}
+{"question": "Giả sử bạn đang ở tháng 7, 1109, thời gian sau 3 năm 10 tháng, thì là thời điểm nào?", "context": ""}
+{"question": "Ngày tháng nào sẽ là 3 năm 8 tháng sau tháng 10, 1556?", "context": ""}
+{"question": "Bạn có thể dự đoán thời điểm trước 4 năm 2 tháng từ tháng 9, 1858 là khi nào không?", "context": ""}
+{"question": "Giả sử bạn đang ở tháng 4, 1313, thời gian sau 4 năm 6 tháng, thì là thời điểm nào?", "context": ""}
+{"question": "Hãy tính thời điểm 10 năm và 10 tháng trước tháng 12, 1803", "context": ""}
+{"question": "Ngày tháng nào sẽ là 10 năm 5 tháng sau tháng 12, 1686?", "context": ""}
+{"question": "Thời gian 3 năm và 1 tháng trước tháng 11, 1781 là khi nào?", "context": ""}
+{"question": "Hãy tính thời điểm 4 năm và 9 tháng sau tháng 10, 1695", "context": ""}
+{"question": "Giả sử bạn đang ở tháng 7, 1617, thời gian sau 3 năm, thì là thời điểm nào?", "context": ""}
+{"question": "Bạn có thể dự đoán thời điểm sau 1 năm 8 tháng từ tháng 1, 1859 là khi nào không?", "context": ""}
+{"question": "Hãy tính thời điểm 10 năm và 3 tháng sau tháng 4, 1717", "context": ""}
+{"question": "Giả sử bạn đang ở tháng 3, 1231, thời gian trước 7 năm 3 tháng, thì là thời điểm nào?", "context": ""}
+{"question": "Ngày tháng nào sẽ là 9 năm 7 tháng trước tháng 8, 1072?", "context": ""}
+{"question": "Giả sử bạn đang ở tháng 3, 1447, thời gian trước 7 năm 11 tháng, thì là thời điểm nào?", "context": ""}
+{"question": "Thời gian 10 năm và 6 tháng sau tháng 9, 1629 là khi nào?", "context": ""}
+{"question": "Bạn có thể dự đoán thời điểm sau 5 năm 12 tháng từ tháng 8, 1859 là khi nào không?", "context": ""}
+{"question": "Giả sử bạn đang ở tháng 8, 1574, thời gian trước 9 năm 5 tháng, thì là thời điểm nào?", "context": ""}
+{"question": "Thời gian 7 năm và 7 tháng trước tháng 1, 1210 là khi nào?", "context": ""}
+{"question": "Bạn có thể dự đoán thời điểm sau 7 năm 8 tháng từ tháng 6, 1428 là khi nào không?", "context": ""}
+{"question": "Ngày tháng nào sẽ là 4 năm trước tháng 12, 1734?", "context": ""}
+{"question": "Thời gian 3 năm và 1 tháng trước tháng 8, 1292 là khi nào?", "context": ""}
+{"question": "Hãy tính thời điểm 6 năm và 1 tháng trước tháng 11, 1548", "context": ""}
+{"question": "Thời gian 11 tháng trước tháng 12, 1599 là khi nào?", "context": ""}
+{"question": "Giả sử bạn đang ở tháng 3, 1890, thời gian sau 3 năm 2 tháng, thì là thời điểm nào?", "context": ""}
+{"question": "Hãy tính thời điểm 7 năm và 10 tháng sau tháng 10, 1642", "context": ""}
+{"question": "Bạn có thể dự đoán thời điểm sau 6 năm từ tháng 8, 1647 là khi nào không?", "context": ""}
+{"question": "Ngày tháng nào sẽ là 8 năm 4 tháng trước tháng 5, 1611?", "context": ""}
+{"question": "Thời gian 8 năm sau tháng 12, 1977 là khi nào?", "context": ""}
+{"question": "Hãy tính thời điểm 8 năm và 10 tháng sau tháng 8, 1673", "context": ""}
+{"question": "Bạn có thể dự đoán thời điểm trước 1 năm 3 tháng từ tháng 9, 1698 là khi nào không?", "context": ""}
+{"question": "Hãy tính thời điểm 3 năm và 8 tháng trước tháng 4, 1779", "context": ""}
+{"question": "Ngày tháng nào sẽ là 5 năm 6 tháng trước tháng 9, 1623?", "context": ""}
+{"question": "Bạn có thể dự đoán thời điểm trước 5 năm 6 tháng từ tháng 7, 1921 là khi nào không?", "context": ""}
+{"question": "Giả sử bạn đang ở tháng 12, 1233, thời gian trước 10 năm 9 tháng, thì là thời điểm nào?", "context": ""}
+{"question": "Thời gian 3 năm trước tháng 6, 1895 là khi nào?", "context": ""}
+{"question": "Ngày tháng nào sẽ là 1 năm 12 tháng trước tháng 6, 1749?", "context": ""}
+{"question": "Hãy tính thời điểm 9 năm và 7 tháng trước tháng 4, 1436", "context": ""}
+{"question": "Bạn có thể dự đoán thời điểm trước 2 năm 9 tháng từ tháng 9, 1807 là khi nào không?", "context": ""}
+{"question": "Thời gian 5 năm và 9 tháng trước tháng 3, 1245 là khi nào?", "context": ""}
+{"question": "Ngày tháng nào sẽ là 9 năm 6 tháng sau tháng 8, 1687?", "context": ""}
+{"question": "Thời gian 5 năm và 2 tháng sau tháng 2, 1817 là khi nào?", "context": ""}
+{"question": "Hãy tính thời điểm 3 năm và 5 tháng sau tháng 7, 1001", "context": ""}
+{"question": "Bạn có thể dự đoán thời điểm sau 6 năm 11 tháng từ tháng 3, 1498 là khi nào không?", "context": ""}
+{"question": "Ngày tháng nào sẽ là 3 năm 4 tháng trước tháng 10, 1484?", "context": ""}
+{"question": "Bạn có thể dự đoán thời điểm trước 6 năm 3 tháng từ tháng 10, 1242 là khi nào không?", "context": ""}
+{"question": "Hãy tính thời điểm 2 năm và 10 tháng sau tháng 12, 1638", "context": ""}
+{"question": "Giả sử bạn đang ở tháng 4, 1830, thời gian trước 10 năm, thì là thời điểm nào?", "context": ""}
+{"question": "Hãy tính thời điểm 9 năm và 12 tháng trước tháng 6, 1849", "context": ""}
+{"question": "Thời gian 2 năm và 7 tháng trước tháng 3, 1966 là khi nào?", "context": ""}
+{"question": "Hãy tính thời điểm 10 năm và 3 tháng trước tháng 7, 1406", "context": ""}
+{"question": "Bạn có thể dự đoán thời điểm sau 2 năm 2 tháng từ tháng 4, 1929 là khi nào không?", "context": ""}
+{"question": "Hãy tính thời điểm 1 tháng sau tháng 7, 1354.", "context": ""}
+{"question": "Giả sử bạn đang ở tháng 10, 1432, thời gian trước 5 tháng, thì là thời điểm nào?", "context": ""}
+{"question": "Hãy tính thời điểm 5 năm sau tháng 2, 1006", "context": ""}
+{"question": "Thời gian 10 năm và 5 tháng sau tháng 9, 1871 là khi nào?", "context": ""}
+{"question": "Bạn có thể dự đoán thời điểm trước 5 năm 10 tháng từ tháng 4, 1382 là khi nào không?", "context": ""}
+{"question": "Giả sử bạn đang ở tháng 1, 1170, thời gian sau 10 năm 5 tháng, thì là thời điểm nào?", "context": ""}
+{"question": "Thời gian 6 năm và 2 tháng trước tháng 12, 1174 là khi nào?", "context": ""}
+{"question": "Bạn có thể dự đoán thời điểm sau 8 tháng từ tháng 3, 1223 là khi nào không?", "context": ""}
+{"question": "Thời gian 6 năm và 8 tháng trước tháng 4, 1289 là khi nào?", "context": ""}
+{"question": "Ngày tháng nào sẽ là 10 năm 3 tháng trước tháng 3, 1969?", "context": ""}
+{"question": "Bạn có thể dự đoán thời điểm trước 9 năm 5 tháng từ tháng 8, 1345 là khi nào không?", "context": ""}
+{"question": "Ngày tháng nào sẽ là 3 năm 7 tháng trước tháng 9, 1266?", "context": ""}
+{"question": "Hãy tính thời điểm 6 năm và 9 tháng sau tháng 2, 1326", "context": ""}
+{"question": "Giả sử bạn đang ở tháng 5, 1605, thời gian sau 8 năm 7 tháng, thì là thời điểm nào?", "context": ""}
+{"question": "Thời gian 6 năm và 3 tháng trước tháng 11, 1694 là khi nào?", "context": ""}
+{"question": "Ngày tháng nào sẽ là 7 năm sau tháng 11, 1886?", "context": ""}
+{"question": "Bạn có thể dự đoán thời điểm trước 1 tháng từ tháng 4, 1992 là khi nào không?", "context": ""}
+{"question": "Thời gian 9 năm và 2 tháng trước tháng 11, 1955 là khi nào?", "context": ""}
+{"question": "Giả sử bạn đang ở tháng 12, 1381, thời gian trước 3 năm 1 tháng, thì là thời điểm nào?", "context": ""}
+{"question": "Thời gian 9 năm trước tháng 12, 1348 là khi nào?", "context": ""}
+{"question": "Bạn có thể dự đoán thời điểm sau 4 năm 5 tháng từ tháng 3, 1654 là khi nào không?", "context": ""}
+{"question": "Ngày tháng nào sẽ là 6 năm 1 tháng sau tháng 4, 1489?", "context": ""}
+{"question": "Hãy tính thời điểm 2 năm trước tháng 9, 1427", "context": ""}
+{"question": "Giả sử bạn đang ở tháng 6, 1659, thời gian trước 3 năm 6 tháng, thì là thời điểm nào?", "context": ""}
+{"question": "Hãy tính thời điểm 10 năm và 2 tháng sau tháng 11, 1946", "context": ""}
+{"question": "Thời gian 5 năm và 10 tháng trước tháng 5, 1316 là khi nào?", "context": ""}
+{"question": "Hãy tính thời điểm 10 năm và 8 tháng trước tháng 2, 1763", "context": ""}
+{"question": "Bạn có thể dự đoán thời điểm trước 7 năm 3 tháng từ tháng 1, 1228 là khi nào không?", "context": ""}
+{"question": "Giả sử bạn đang ở tháng 12, 1423, thời gian sau 11 tháng, thì là thời điểm nào?", "context": ""}
+{"question": "Hãy tính thời điểm 9 năm và 8 tháng trước tháng 10, 1479", "context": ""}
+{"question": "Bạn có thể dự đoán thời điểm sau 3 năm 5 tháng từ tháng 12, 1668 là khi nào không?", "context": ""}
+{"question": "Ngày tháng nào sẽ là 1 năm 7 tháng trước tháng 8, 1602?", "context": ""}
+{"question": "Hãy tính thời điểm 6 năm và 5 tháng sau tháng 1, 1207", "context": ""}
+{"question": "Bạn có thể dự đoán thời điểm sau 6 năm 4 tháng từ tháng 1, 1601 là khi nào không?", "context": ""}
+{"question": "Ngày tháng nào sẽ là 5 năm 1 tháng trước tháng 2, 1590?", "context": ""}
+{"question": "Giả sử bạn đang ở tháng 11, 1762, thời gian trước 2 năm 7 tháng, thì là thời điểm nào?", "context": ""}
+{"question": "Thời gian 9 năm và 8 tháng trước tháng 2, 1060 là khi nào?", "context": ""}
+{"question": "Bạn có thể dự đoán thời điểm sau 10 năm 4 tháng từ tháng 7, 1013 là khi nào không?", "context": ""}
+{"question": "Ngày tháng nào sẽ là 5 tháng sau tháng 2, 1851?", "context": ""}
+{"question": "Thời gian 7 năm và 7 tháng trước tháng 3, 1791 là khi nào?", "context": ""}
+{"question": "Giả sử bạn đang ở tháng 11, 1536, thời gian trước 1 năm 2 tháng, thì là thời điểm nào?", "context": ""}
+{"question": "Hãy tính thời điểm 12 tháng sau tháng 11, 1935.", "context": ""}
+{"question": "Thời gian 7 năm và 5 tháng trước tháng 3, 1756 là khi nào?", "context": ""}
+{"question": "Ngày tháng nào sẽ là 2 năm 4 tháng trước tháng 5, 1116?", "context": ""}
+{"question": "Hãy tính thời điểm 8 năm và 1 tháng trước tháng 7, 1391", "context": ""}
+{"question": "Thời gian 10 năm và 8 tháng trước tháng 7, 1903 là khi nào?", "context": ""}
+{"question": "Hãy tính thời điểm 1 năm và 2 tháng trước tháng 9, 1156", "context": ""}
+{"question": "Bạn có thể dự đoán thời điểm sau 9 năm 11 tháng từ tháng 10, 1851 là khi nào không?", "context": ""}
+{"question": "Thời gian 4 năm và 9 tháng sau tháng 10, 1768 là khi nào?", "context": ""}
+{"question": "Ngày tháng nào sẽ là 5 năm 7 tháng trước tháng 9, 1787?", "context": ""}
+{"question": "Thời gian 7 năm và 4 tháng sau tháng 10, 1287 là khi nào?", "context": ""}
+{"question": "Ngày tháng nào sẽ là 6 năm 1 tháng trước tháng 1, 1066?", "context": ""}
+{"question": "Bạn có thể dự đoán thời điểm sau 9 năm 3 tháng từ tháng 11, 1699 là khi nào không?", "context": ""}
+{"question": "Thời gian 5 năm và 9 tháng trước tháng 6, 1051 là khi nào?", "context": ""}
+{"question": "Ngày tháng nào sẽ là 8 năm 9 tháng sau tháng 2, 1197?", "context": ""}
+{"question": "Giả sử bạn đang ở tháng 8, 1238, thời gian sau 6 năm 3 tháng, thì là thời điểm nào?", "context": ""}
+{"question": "Ngày tháng nào sẽ là 6 năm 7 tháng sau tháng 8, 1697?", "context": ""}
+{"question": "Hãy tính thời điểm 3 năm trước tháng 3, 1948", "context": ""}
+{"question": "Giả sử bạn đang ở tháng 12, 1789, thời gian trước 8 năm 1 tháng, thì là thời điểm nào?", "context": ""}
+{"question": "Thời gian 9 năm và 9 tháng sau tháng 9, 1298 là khi nào?", "context": ""}
+{"question": "Giả sử bạn đang ở tháng 10, 1729, thời gian sau 7 năm 11 tháng, thì là thời điểm nào?", "context": ""}
+{"question": "Ngày tháng nào sẽ là 2 năm 11 tháng sau tháng 2, 1597?", "context": ""}
+{"question": "Giả sử bạn đang ở tháng 9, 1338, thời gian sau 2 năm 11 tháng, thì là thời điểm nào?", "context": ""}
+{"question": "Ngày tháng nào sẽ là 10 năm 9 tháng trước tháng 10, 1894?", "context": ""}
+{"question": "Giả sử bạn đang ở tháng 11, 1738, thời gian trước 10 năm 8 tháng, thì là thời điểm nào?", "context": ""}
+{"question": "Hãy tính thời điểm 6 năm và 3 tháng sau tháng 10, 1152", "context": ""}
+{"question": "Thời gian 10 năm và 5 tháng sau tháng 9, 1235 là khi nào?", "context": ""}
+{"question": "Ngày tháng nào sẽ là 7 năm 9 tháng sau tháng 1, 1881?", "context": ""}
+{"question": "Thời gian 8 năm và 10 tháng sau tháng 12, 1251 là khi nào?", "context": ""}
+{"question": "Bạn có thể dự đoán thời điểm trước 7 năm 4 tháng từ tháng 10, 1451 là khi nào không?", "context": ""}
+{"question": "Thời gian 10 năm và 10 tháng trước tháng 7, 1233 là khi nào?", "context": ""}
+{"question": "Bạn có thể dự đoán thời điểm trước 10 năm 9 tháng từ tháng 2, 1170 là khi nào không?", "context": ""}
+{"question": "Ngày tháng nào sẽ là 4 năm 5 tháng sau tháng 1, 1016?", "context": ""}
+{"question": "Hãy tính thời điểm 6 năm trước tháng 6, 1665", "context": ""}
+{"question": "Bạn có thể dự đoán thời điểm sau 6 năm 2 tháng từ tháng 12, 1957 là khi nào không?", "context": ""}
+{"question": "Giả sử bạn đang ở tháng 2, 1673, thời gian trước 4 năm 12 tháng, thì là thời điểm nào?", "context": ""}
+{"question": "Thời gian 4 năm và 11 tháng sau tháng 3, 1130 là khi nào?", "context": ""}
+{"question": "Ngày tháng nào sẽ là 1 năm 9 tháng sau tháng 3, 1948?", "context": ""}
+{"question": "Giả sử bạn đang ở tháng 1, 1490, thời gian sau 4 năm 9 tháng, thì là thời điểm nào?", "context": ""}
+{"question": "Ngày tháng nào sẽ là 10 năm 11 tháng trước tháng 10, 1710?", "context": ""}
+{"question": "Bạn có thể dự đoán thời điểm trước 2 năm từ tháng 6, 1438 là khi nào không?", "context": ""}
+{"question": "Ngày tháng nào sẽ là 5 năm 1 tháng sau tháng 2, 1225?", "context": ""}
+{"question": "Bạn có thể dự đoán thời điểm sau 2 năm 9 tháng từ tháng 9, 1965 là khi nào không?", "context": ""}
+{"question": "Hãy tính thời điểm 6 năm và 6 tháng trước tháng 2, 1459", "context": ""}
+{"question": "Bạn có thể dự đoán thời điểm trước 5 năm 8 tháng từ tháng 10, 1130 là khi nào không?", "context": ""}
+{"question": "Giả sử bạn đang ở tháng 3, 1953, thời gian trước 10 năm 8 tháng, thì là thời điểm nào?", "context": ""}
+{"question": "Bạn có thể dự đoán thời điểm sau 3 năm 4 tháng từ tháng 5, 1684 là khi nào không?", "context": ""}
+{"question": "Ngày tháng nào sẽ là 2 năm 2 tháng trước tháng 8, 1833?", "context": ""}
+{"question": "Hãy tính thời điểm 2 năm và 6 tháng sau tháng 8, 1670", "context": ""}
+{"question": "Ngày tháng nào sẽ là 10 năm 4 tháng trước tháng 1, 1824?", "context": ""}
+{"question": "Bạn có thể dự đoán thời điểm trước 6 năm 9 tháng từ tháng 11, 1094 là khi nào không?", "context": ""}
+{"question": "Giả sử bạn đang ở tháng 6, 1056, thời gian sau 7 năm 6 tháng, thì là thời điểm nào?", "context": ""}
+{"question": "Hãy tính thời điểm 10 tháng trước tháng 5, 1726.", "context": ""}
+{"question": "Ngày tháng nào sẽ là 5 năm 2 tháng sau tháng 12, 1748?", "context": ""}
+{"question": "Thời gian 1 năm sau tháng 3, 1235 là khi nào?", "context": ""}
+{"question": "Giả sử bạn đang ở tháng 3, 1841, thời gian trước 7 năm 12 tháng, thì là thời điểm nào?", "context": ""}
+{"question": "Bạn có thể dự đoán thời điểm sau 10 năm từ tháng 5, 1360 là khi nào không?", "context": ""}
+{"question": "Ngày tháng nào sẽ là 9 năm sau tháng 11, 1611?", "context": ""}
+{"question": "Thời gian 3 năm và 6 tháng sau tháng 11, 1211 là khi nào?", "context": ""}
+{"question": "Ngày tháng nào sẽ là 7 tháng sau tháng 8, 1442?", "context": ""}
+{"question": "Thời gian 9 năm và 2 tháng sau tháng 4, 1432 là khi nào?", "context": ""}
+{"question": "Giả sử bạn đang ở tháng 1, 1579, thời gian sau 5 năm 5 tháng, thì là thời điểm nào?", "context": ""}
+{"question": "Hãy tính thời điểm 2 năm và 12 tháng sau tháng 7, 1952", "context": ""}
+{"question": "Ngày tháng nào sẽ là 6 năm 1 tháng trước tháng 1, 1798?", "context": ""}
+{"question": "Hãy tính thời điểm 8 năm và 5 tháng sau tháng 8, 1608", "context": ""}
+{"question": "Bạn có thể dự đoán thời điểm trước 2 năm 6 tháng từ tháng 12, 1212 là khi nào không?", "context": ""}
+{"question": "Hãy tính thời điểm 2 năm trước tháng 8, 1994", "context": ""}
+{"question": "Giả sử bạn đang ở tháng 5, 1093, thời gian sau 3 tháng, thì là thời điểm nào?", "context": ""}
+{"question": "Bạn có thể dự đoán thời điểm sau 9 năm 10 tháng từ tháng 9, 1335 là khi nào không?", "context": ""}
+{"question": "Ngày tháng nào sẽ là 5 năm 6 tháng sau tháng 12, 1876?", "context": ""}
+{"question": "Thời gian 1 năm và 2 tháng trước tháng 10, 1168 là khi nào?", "context": ""}
+{"question": "Giả sử bạn đang ở tháng 8, 1749, thời gian sau 2 tháng, thì là thời điểm nào?", "context": ""}
+{"question": "Hãy tính thời điểm 8 năm và 2 tháng trước tháng 5, 1345", "context": ""}
+{"question": "Bạn có thể dự đoán thời điểm sau 4 năm 9 tháng từ tháng 8, 1574 là khi nào không?", "context": ""}
+{"question": "Ngày tháng nào sẽ là 6 năm trước tháng 7, 1235?", "context": ""}
+{"question": "Giả sử bạn đang ở tháng 5, 1458, thời gian sau 11 tháng, thì là thời điểm nào?", "context": ""}
+{"question": "Thời gian 1 năm và 10 tháng sau tháng 7, 1935 là khi nào?", "context": ""}
+{"question": "Ngày tháng nào sẽ là 8 năm 8 tháng sau tháng 9, 1175?", "context": ""}
+{"question": "Giả sử bạn đang ở tháng 7, 1473, thời gian trước 6 năm 12 tháng, thì là thời điểm nào?", "context": ""}
+{"question": "Thời gian 7 năm và 11 tháng sau tháng 1, 1563 là khi nào?", "context": ""}
+{"question": "Giả sử bạn đang ở tháng 2, 1886, thời gian trước 5 năm 6 tháng, thì là thời điểm nào?", "context": ""}
+{"question": "Bạn có thể dự đoán thời điểm sau 5 năm 8 tháng từ tháng 11, 1181 là khi nào không?", "context": ""}
+{"question": "Giả sử bạn đang ở tháng 5, 1307, thời gian trước 6 năm 3 tháng, thì là thời điểm nào?", "context": ""}
+{"question": "Thời gian 6 năm và 2 tháng trước tháng 8, 1649 là khi nào?", "context": ""}
+{"question": "Giả sử bạn đang ở tháng 2, 1779, thời gian sau 9 năm, thì là thời điểm nào?", "context": ""}
+{"question": "Bạn có thể dự đoán thời điểm trước 10 năm từ tháng 5, 1975 là khi nào không?", "context": ""}
+{"question": "Giả sử bạn đang ở tháng 9, 1452, thời gian trước 10 năm 10 tháng, thì là thời điểm nào?", "context": ""}
+{"question": "Thời gian 7 năm và 8 tháng trước tháng 7, 1390 là khi nào?", "context": ""}
+{"question": "Ngày tháng nào sẽ là 10 năm 9 tháng sau tháng 6, 1143?", "context": ""}
+{"question": "Giả sử bạn đang ở tháng 8, 1066, thời gian trước 8 năm 5 tháng, thì là thời điểm nào?", "context": ""}
+{"question": "Ngày tháng nào sẽ là 11 tháng sau tháng 8, 1588?", "context": ""}
+{"question": "Giả sử bạn đang ở tháng 11, 1429, thời gian trước 10 năm 8 tháng, thì là thời điểm nào?", "context": ""}
+{"question": "Thời gian 4 năm và 2 tháng trước tháng 9, 1960 là khi nào?", "context": ""}
+{"question": "Hãy tính thời điểm 3 năm và 10 tháng trước tháng 4, 1609", "context": ""}
+{"question": "Ngày tháng nào sẽ là 7 năm 5 tháng trước tháng 1, 1289?", "context": ""}
+{"question": "Bạn có thể dự đoán thời điểm trước 6 năm 1 tháng từ tháng 3, 1508 là khi nào không?", "context": ""}
+{"question": "Hãy tính thời điểm 6 năm và 3 tháng sau tháng 12, 1255", "context": ""}
+{"question": "Thời gian 8 năm và 10 tháng sau tháng 12, 1902 là khi nào?", "context": ""}
+{"question": "Bạn có thể dự đoán thời điểm sau 1 năm 10 tháng từ tháng 10, 1307 là khi nào không?", "context": ""}
+{"question": "Ngày tháng nào sẽ là 1 năm 5 tháng sau tháng 4, 1312?", "context": ""}
+{"question": "Thời gian 7 tháng trước tháng 9, 1611 là khi nào?", "context": ""}
+{"question": "Giả sử bạn đang ở tháng 11, 1193, thời gian sau 4 năm 4 tháng, thì là thời điểm nào?", "context": ""}
+{"question": "Ngày tháng nào sẽ là 7 năm 6 tháng sau tháng 1, 1988?", "context": ""}
+{"question": "Bạn có thể dự đoán thời điểm sau 8 năm từ tháng 1, 1755 là khi nào không?", "context": ""}
+{"question": "Hãy tính thời điểm 9 năm và 11 tháng sau tháng 3, 1097", "context": ""}
+{"question": "Thời gian 6 năm và 5 tháng sau tháng 11, 1490 là khi nào?", "context": ""}
+{"question": "Hãy tính thời điểm 4 năm và 7 tháng trước tháng 1, 1155", "context": ""}
+{"question": "Ngày tháng nào sẽ là 1 năm 9 tháng trước tháng 11, 1218?", "context": ""}
+{"question": "Hãy tính thời điểm 1 năm và 4 tháng sau tháng 10, 1217", "context": ""}
+{"question": "Ngày tháng nào sẽ là 3 năm 6 tháng sau tháng 5, 1701?", "context": ""}
+{"question": "Hãy tính thời điểm 7 năm và 9 tháng sau tháng 9, 1518", "context": ""}
+{"question": "Giả sử bạn đang ở tháng 4, 1438, thời gian trước 10 tháng, thì là thời điểm nào?", "context": ""}
+{"question": "Ngày tháng nào sẽ là 9 năm 2 tháng trước tháng 7, 1549?", "context": ""}
+{"question": "Giả sử bạn đang ở tháng 12, 1457, thời gian sau 10 năm 12 tháng, thì là thời điểm nào?", "context": ""}
+{"question": "Hãy tính thời điểm 6 năm và 5 tháng sau tháng 11, 1342", "context": ""}
+{"question": "Giả sử bạn đang ở tháng 5, 1490, thời gian sau 1 năm 1 tháng, thì là thời điểm nào?", "context": ""}
+{"question": "Ngày tháng nào sẽ là 2 năm 10 tháng trước tháng 7, 1575?", "context": ""}
+{"question": "Thời gian 1 năm và 5 tháng sau tháng 8, 1920 là khi nào?", "context": ""}
+{"question": "Hãy tính thời điểm 10 năm và 10 tháng sau tháng 6, 1645", "context": ""}
+{"question": "Giả sử bạn đang ở tháng 12, 2000, thời gian sau 8 tháng, thì là thời điểm nào?", "context": ""}
+{"question": "Ngày tháng nào sẽ là 3 năm 5 tháng sau tháng 1, 1278?", "context": ""}
+{"question": "Bạn có thể dự đoán thời điểm trước 10 năm 3 tháng từ tháng 4, 1526 là khi nào không?", "context": ""}

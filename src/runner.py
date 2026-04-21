@@ -22,6 +22,7 @@ from typing import Any
 
 import yaml
 
+from .data.pools import collect_qids, load_retrieval_pool
 from .data.registry import load_dataset
 from .evaluation.evaluate import build_record, score_records
 from .evaluation.metrics import avg_inference_time
@@ -52,6 +53,13 @@ class RunConfig:
     verbose_first_n: int = 5         # full log cho N sample đầu (raw + extracted + gold + correct)
     verbose_every: int = 0           # >0: log rút gọn mỗi N sample
     running_score_every: int = 100   # in F1/accuracy tạm thời mỗi N sample
+    # Dynamic few-shot retrieval (chỉ dùng khi method == "dynamic_few_shot")
+    encoder_name: str = "intfloat/multilingual-e5-base"
+    text_scope: str = "context_question"     # context_question | question
+    pool_exclude_first_n: int = 1500
+    retrieval_cache_dir: str | None = "outputs/retrieval_cache"
+    balance_by_label: bool = False
+    unique_by_qid: bool = False
 
 
 def load_config(path: str | Path) -> RunConfig:
@@ -140,6 +148,56 @@ def _log_sample(idx: int, total: int, rec: dict, full: bool) -> None:
         )
 
 
+def _build_dynamic_selector(cfg: RunConfig, eval_samples: list[dict]):
+    """Build retrieval pool + FAISS index + DynamicShotSelector.
+
+    Lazy import để các run không dùng dynamic_few_shot không phải cài
+    sentence-transformers / faiss.
+    """
+    from .retrieval.encoder import E5Encoder
+    from .retrieval.index import build_or_load_index, resolve_text_fn
+    from .retrieval.selector import DynamicShotSelector
+
+    dataset = cfg.dataset
+    text_fn = resolve_text_fn(cfg.text_scope)
+
+    eval_qids = collect_qids(eval_samples) if cfg.unique_by_qid else None
+    pool = load_retrieval_pool(
+        dataset_name=dataset,
+        exclude_first_n=cfg.pool_exclude_first_n,
+        eval_qids=eval_qids,
+    )
+    if not pool:
+        raise RuntimeError(
+            f"Retrieval pool cho {dataset!r} rỗng (exclude_first_n="
+            f"{cfg.pool_exclude_first_n}). Kiểm tra kích thước dataset gốc."
+        )
+    print(f"[runner] retrieval pool size={len(pool)} "
+          f"(skip first {cfg.pool_exclude_first_n}, exclude_eval_qids={eval_qids is not None})")
+
+    encoder = E5Encoder(model_name=cfg.encoder_name)
+    built = build_or_load_index(
+        pool=pool,
+        encoder=encoder,
+        text_fn=text_fn,
+        dataset_name=dataset,
+        exclude_first_n=cfg.pool_exclude_first_n,
+        text_scope=cfg.text_scope,
+        cache_dir=cfg.retrieval_cache_dir,
+    )
+    selector = DynamicShotSelector(
+        built=built,
+        encoder=encoder,
+        text_fn=text_fn,
+        k=cfg.k_shot,
+        balance_by_label=cfg.balance_by_label,
+        unique_by_qid=cfg.unique_by_qid,
+    )
+    print(f"[runner] dynamic few-shot k={cfg.k_shot} "
+          f"balance_by_label={cfg.balance_by_label} unique_by_qid={cfg.unique_by_qid}")
+    return selector
+
+
 def run(
     cfg: RunConfig,
     *,
@@ -169,11 +227,15 @@ def run(
 
     # Build method
     method_kwargs: dict[str, Any] = {"enable_thinking": cfg.enable_thinking}
+    dynamic_selector = None
     if cfg.method == "few_shot":
         task = samples[0]["task"]
         language = samples[0]["language"]
         method_kwargs["shots"] = get_shots(task, language, cfg.k_shot)
         print(f"[runner] few-shot k={cfg.k_shot} for ({task},{language})")
+    elif cfg.method == "dynamic_few_shot":
+        dynamic_selector = _build_dynamic_selector(cfg, samples)
+        method_kwargs["shot_selector"] = dynamic_selector
     method = build_method(cfg.method, model, **method_kwargs)
 
     task = samples[0]["task"]
@@ -185,7 +247,13 @@ def run(
             raw = method.predict(sample)
         elapsed = t["elapsed"]
         times.append(elapsed)
-        rec = build_record(sample, raw, elapsed)
+        extra: dict | None = None
+        if dynamic_selector is not None:
+            extra = {
+                "retrieved_shot_ids": list(dynamic_selector.last_retrieved_ids),
+                "retrieved_scores": list(dynamic_selector.last_scores),
+            }
+        rec = build_record(sample, raw, elapsed, extra=extra)
         records.append(rec)
 
         if cfg.verbose:

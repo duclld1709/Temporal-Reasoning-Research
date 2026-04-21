@@ -1,0 +1,37 @@
+{
+  "experiment": "few_shot_bigbench_date_k3",
+  "method": "few_shot",
+  "dataset": "bigbench_date",
+  "task": "date_arith",
+  "language": "en",
+  "k_shot": 3,
+  "enable_thinking": false,
+  "seed": 42,
+  "model": "Qwen/Qwen3-8B",
+  "num_samples": 369,
+  "avg_inference_sec": 0.5386081105826611,
+  "metrics": {
+    "accuracy": 0.35501355013550134,
+    "correct": 131,
+    "support": 369,
+    "parse_fail": 8
+  },
+  "config": {
+    "experiment_name": "few_shot_bigbench_date_k3",
+    "method": "few_shot",
+    "dataset": "bigbench_date",
+    "seed": 42,
+    "model_name": "Qwen/Qwen3-8B",
+    "dtype": "bfloat16",
+    "enable_thinking": false,
+    "k_shot": 3,
+    "max_samples": "default",
+    "dataset_path": null,
+    "output_dir": "/content/outputs",
+    "progress_every": 50,
+    "verbose": true,
+    "verbose_first_n": 5,
+    "verbose_every": 50,
+    "running_score_every": 50
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "experiment": "zero_shot_vlsp_date",
+  "method": "zero_shot",
+  "dataset": "vlsp_date",
+  "task": "date_arith",
+  "language": "vi",
+  "k_shot": 0,
+  "enable_thinking": false,
+  "seed": 42,
+  "model": "Qwen/Qwen3-8B",
+  "num_samples": 1500,
+  "avg_inference_sec": 0.5553451133633333,
+  "metrics": {
+    "accuracy": 0.2653333333333333,
+    "correct": 398,
+    "support": 1500,
+    "parse_fail": 0
+  },
+  "config": {
+    "experiment_name": "zero_shot_vlsp_date",
+    "method": "zero_shot",
+    "dataset": "vlsp_date",
+    "seed": 42,
+    "model_name": "Qwen/Qwen3-8B",
+    "dtype": "bfloat16",
+    "enable_thinking": false,
+    "k_shot": 0,
+    "max_samples": "default",
+    "dataset_path": null,
+    "output_dir": "/content/outputs",
+    "progress_every": 50,
+    "verbose": true,
+    "verbose_first_n": 5,
+    "verbose_every": 200,
+    "running_score_every": 100
+  }
+}

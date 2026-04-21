@@ -1,0 +1,42 @@
+{
+  "experiment": "few_shot_udst_duration_k4",
+  "method": "few_shot",
+  "dataset": "udst_duration",
+  "task": "duration",
+  "language": "en",
+  "k_shot": 4,
+  "enable_thinking": false,
+  "seed": 42,
+  "model": "Qwen/Qwen3-8B",
+  "num_samples": 1500,
+  "avg_inference_sec": 0.1036795547733315,
+  "metrics": {
+    "f1": 0.47222222222222227,
+    "precision": 0.6432432432432432,
+    "recall": 0.3730407523510972,
+    "tp": 238,
+    "fp": 132,
+    "fn": 400,
+    "tn": 730,
+    "support": 1500,
+    "parse_fail": 0
+  },
+  "config": {
+    "experiment_name": "few_shot_udst_duration_k4",
+    "method": "few_shot",
+    "dataset": "udst_duration",
+    "seed": 42,
+    "model_name": "Qwen/Qwen3-8B",
+    "dtype": "bfloat16",
+    "enable_thinking": false,
+    "k_shot": 4,
+    "max_samples": "default",
+    "dataset_path": null,
+    "output_dir": "/content/outputs",
+    "progress_every": 50,
+    "verbose": true,
+    "verbose_first_n": 5,
+    "verbose_every": 200,
+    "running_score_every": 100
+  }
+}

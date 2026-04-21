@@ -27,6 +27,7 @@ def build_record(
     sample: dict,
     raw_output: str,
     elapsed_sec: float,
+    extra: dict | None = None,
 ) -> dict:
     task = sample["task"]
     language = sample["language"]
@@ -52,4 +53,6 @@ def build_record(
     # Thêm context cho task date_arith (nếu có)
     if task == "date_arith" and "context" in sample:
         rec["context"] = sample["context"]
+    if extra:
+        rec.update(extra)
     return rec

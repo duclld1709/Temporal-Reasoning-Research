@@ -1,0 +1,18 @@
+experiment_name: dynamic_few_shot_udst_duration_k4
+method: dynamic_few_shot
+dataset: udst_duration
+seed: 42
+model_name: Qwen/Qwen3-8B
+dtype: bfloat16
+enable_thinking: false
+k_shot: 4
+max_samples: default
+output_dir: outputs
+progress_every: 50
+# Dynamic retrieval settings
+encoder_name: intfloat/multilingual-e5-base
+text_scope: context_question
+pool_exclude_first_n: 1500
+retrieval_cache_dir: outputs/retrieval_cache
+balance_by_label: true
+unique_by_qid: false

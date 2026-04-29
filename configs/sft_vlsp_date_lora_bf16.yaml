@@ -1,0 +1,58 @@
+# SFT (LoRA bf16) trên VLSP DateArith VI — Phase 2.
+# Map 1-1 với src.training.sft.SFTRunConfig.
+#
+# Train pool = rows 1500..2999 của date_training_dataset.txt (rows 0..1499 là eval Phase 1).
+# Split 90/10 (~1350 train + ~150 val) bằng shuffle deterministic seed=42.
+#
+# Notebook usage:
+#   import yaml
+#   from src.training.sft import SFTRunConfig, train_sft
+#   raw = yaml.safe_load(open("configs/sft_vlsp_date_lora_bf16.yaml"))
+#   cfg = SFTRunConfig(**raw)
+#   adapter_path = train_sft(cfg)
+
+model_name: Qwen/Qwen3-8B
+dtype: bfloat16
+trust_remote_code: true
+
+dataset: vlsp_date
+dataset_path: null
+train_pool_start: 1500
+train_pool_size: 1500
+val_ratio: 0.1
+shuffle_seed: 42
+
+output_dir: checkpoints/lora_vlsp_date_bf16
+
+lora_r: 16
+lora_alpha: 32
+lora_dropout: 0.05
+lora_target_modules:
+  - q_proj
+  - k_proj
+  - v_proj
+  - o_proj
+  - gate_proj
+  - up_proj
+  - down_proj
+
+num_epochs: 3
+per_device_batch_size: 1
+gradient_accumulation_steps: 8
+learning_rate: 2.0e-4
+warmup_ratio: 0.03
+lr_scheduler: cosine
+weight_decay: 0.0
+max_seq_length: 256
+bf16: true
+
+logging_steps: 10
+save_strategy: epoch
+eval_strategy: epoch
+save_total_limit: 2
+load_best_model_at_end: true
+metric_for_best_model: eval_loss
+greater_is_better: false
+report_to: none
+
+seed: 42

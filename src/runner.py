@@ -48,6 +48,7 @@ class RunConfig:
     dataset_path: str | None = None
     output_dir: str = "outputs"
     progress_every: int = 50
+    adapter_path: str | None = None  # PEFT/LoRA adapter dir (optional)
     # Verbose controls
     verbose: bool = False            # bật log per-sample
     verbose_first_n: int = 5         # full log cho N sample đầu (raw + extracted + gold + correct)
@@ -80,6 +81,7 @@ def _summary_row(cfg: RunConfig, metrics: dict, avg_time: float, n: int) -> dict
         "enable_thinking": cfg.enable_thinking,
         "seed": cfg.seed,
         "model": cfg.model_name,
+        "adapter_path": cfg.adapter_path or "",
         "num_samples": n,
         "avg_inference_sec": round(avg_time, 4),
     }
@@ -220,10 +222,15 @@ def run(
 
     # Build / reuse model
     if model is None:
-        model = QwenChatLM(QwenConfig(model_name=cfg.model_name, dtype=cfg.dtype))
+        model = QwenChatLM(QwenConfig(
+            model_name=cfg.model_name,
+            dtype=cfg.dtype,
+            adapter_path=cfg.adapter_path,
+        ))
         model.load()
     else:
-        print(f"[runner] reusing pre-loaded model: {model.config.model_name}")
+        print(f"[runner] reusing pre-loaded model: {model.config.model_name}"
+              + (f" (+adapter={model.config.adapter_path})" if model.config.adapter_path else ""))
 
     # Build method
     method_kwargs: dict[str, Any] = {"enable_thinking": cfg.enable_thinking}

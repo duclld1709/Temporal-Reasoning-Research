@@ -24,6 +24,7 @@ class QwenConfig:
     device_map: str | None = "auto"
     trust_remote_code: bool = True
     load_kwargs: dict[str, Any] = field(default_factory=dict)
+    adapter_path: str | None = None  # PEFT/LoRA adapter directory (optional)
 
 
 class QwenChatLM:
@@ -54,6 +55,11 @@ class QwenChatLM:
             trust_remote_code=self.config.trust_remote_code,
             **self.config.load_kwargs,
         )
+        if self.config.adapter_path:
+            from peft import PeftModel
+            self._model = PeftModel.from_pretrained(
+                self._model, self.config.adapter_path
+            )
         self._model.eval()
 
     def generate(

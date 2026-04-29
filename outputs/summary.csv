@@ -9,3 +9,4 @@ timestamp,experiment,method,dataset,k_shot,enable_thinking,seed,model,num_sample
 2026-04-21T06:44:39,few_shot_vlsp_duration_k4,few_shot,vlsp_duration,4,FALSE,42,Qwen/Qwen3-8B,1500,0.1071,f1,0.7407,0.7292,0.7527,0
 2026-04-21T15:06:18,dynamic_few_shot_vlsp_date_k3,dynamic_few_shot,vlsp_date,3,FALSE,42,Qwen/Qwen3-8B,1500,0.5626,accuracy,0.556,0,,
 2026-04-21T15:09:39,dynamic_few_shot_vlsp_duration_k4,dynamic_few_shot,vlsp_duration,4,FALSE,42,Qwen/Qwen3-8B,1500,0.126,f1,0.7214,0.7935,0.6613,0
+2026-04-22T02:36:21,dynamic_few_shot_udst_duration_k4,dynamic_few_shot,udst_duration,4,FALSE,42,Qwen/Qwen3-8B,1500,0.1149,f1,0.5839,0.6142,0.5564,0

@@ -2,10 +2,12 @@
 
 Lưu ý:
 - LoRA bf16 (không quantize) — cần ~24GB VRAM (Colab Pro A100 ổn).
-- Loss chỉ tính trên assistant tokens (dùng ``DataCollatorForCompletionOnlyLM``).
+- Loss chỉ tính trên assistant tokens (custom ``CompletionOnlyCollator``).
 - Sample render qua chính prompt template inference → distribution khớp eval.
 - Adapter chỉ save (không merge vào base) để tiết kiệm disk; eval load qua
   ``QwenConfig(adapter_path=...)``.
+- Không dùng ``trl.SFTTrainer`` — API thay đổi nhiều giữa các version. Dùng
+  ``transformers.Trainer`` trực tiếp với PEFT model + custom collator.
 """
 
 from __future__ import annotations
@@ -18,6 +20,7 @@ from ..data.registry import load_dataset
 from ..data.schema import Sample
 from ..utils.seed import set_seed
 from .data import (
+    CompletionOnlyCollator,
     resolve_assistant_response_template,
     samples_to_chat_dataset,
     split_train_val,
@@ -78,7 +81,7 @@ class SFTRunConfig:
 
 
 def _load_train_pool(cfg: SFTRunConfig) -> list[Sample]:
-    """Load đủ rows để có thể slice train pool, rồi cắt rows [start:start+size]."""
+    """Load đủ rows để slice train pool, rồi cắt rows [start:start+size]."""
     needed = cfg.train_pool_start + cfg.train_pool_size
     kwargs: dict[str, Any] = {"max_samples": needed}
     if cfg.dataset_path:
@@ -93,18 +96,32 @@ def _load_train_pool(cfg: SFTRunConfig) -> list[Sample]:
     return pool
 
 
+def _tokenize_text_dataset(ds, tokenizer, max_length: int):
+    """Tokenize cột ``text`` thành ``input_ids``; truncation tới max_length."""
+    def fn(example):
+        enc = tokenizer(
+            example["text"],
+            truncation=True,
+            max_length=max_length,
+            add_special_tokens=False,  # chat_template đã chèn token đặc biệt
+        )
+        return {"input_ids": enc["input_ids"]}
+
+    return ds.map(fn, batched=False, remove_columns=ds.column_names)
+
+
 def train_sft(cfg: SFTRunConfig) -> str:
     """Chạy SFT, save adapter vào ``cfg.output_dir``, trả về đường dẫn đó."""
     set_seed(cfg.seed)
 
     # Lazy imports — chỉ cần khi train.
     import torch
-    from peft import LoraConfig
-    from transformers import AutoModelForCausalLM, AutoTokenizer
-    from trl import (  # type: ignore
-        DataCollatorForCompletionOnlyLM,
-        SFTConfig,
-        SFTTrainer,
+    from peft import LoraConfig, get_peft_model
+    from transformers import (
+        AutoModelForCausalLM,
+        AutoTokenizer,
+        Trainer,
+        TrainingArguments,
     )
 
     # 1. Data
@@ -135,9 +152,9 @@ def train_sft(cfg: SFTRunConfig) -> str:
         device_map="auto",
         trust_remote_code=cfg.trust_remote_code,
     )
-    model.config.use_cache = False  # cần thiết khi train với gradient checkpointing
+    model.config.use_cache = False  # gradient_checkpointing yêu cầu use_cache=False
 
-    # 3. LoRA config
+    # 3. Apply LoRA
     peft_config = LoraConfig(
         r=cfg.lora_r,
         lora_alpha=cfg.lora_alpha,
@@ -146,21 +163,28 @@ def train_sft(cfg: SFTRunConfig) -> str:
         bias="none",
         task_type="CAUSAL_LM",
     )
+    model = get_peft_model(model, peft_config)
+    if hasattr(model, "enable_input_require_grads"):
+        # Cần để gradient flow qua input embeddings khi gradient_checkpointing=True.
+        model.enable_input_require_grads()
+    model.print_trainable_parameters()
 
-    # 4. Build chat-format datasets
-    train_ds = samples_to_chat_dataset(train_samples, tokenizer)
-    val_ds = samples_to_chat_dataset(val_samples, tokenizer)
+    # 4. Build chat-format datasets + tokenize
+    train_text_ds = samples_to_chat_dataset(train_samples, tokenizer)
+    val_text_ds = samples_to_chat_dataset(val_samples, tokenizer)
+    train_ds = _tokenize_text_dataset(train_text_ds, tokenizer, cfg.max_seq_length)
+    val_ds = _tokenize_text_dataset(val_text_ds, tokenizer, cfg.max_seq_length)
 
     # 5. Response-only loss masking
     response_template = resolve_assistant_response_template(tokenizer)
     print(f"[sft] response_template (loss-mask boundary) = {response_template!r}")
-    collator = DataCollatorForCompletionOnlyLM(
-        response_template=response_template,
+    collator = CompletionOnlyCollator(
         tokenizer=tokenizer,
+        response_template=response_template,
     )
 
-    # 6. SFTConfig (extends TrainingArguments)
-    sft_args = SFTConfig(
+    # 6. TrainingArguments — kwargs động để tương thích nhiều version transformers.
+    targs_kwargs: dict[str, Any] = dict(
         output_dir=cfg.output_dir,
         num_train_epochs=cfg.num_epochs,
         per_device_train_batch_size=cfg.per_device_batch_size,
@@ -173,34 +197,44 @@ def train_sft(cfg: SFTRunConfig) -> str:
         bf16=cfg.bf16,
         logging_steps=cfg.logging_steps,
         save_strategy=cfg.save_strategy,
-        eval_strategy=cfg.eval_strategy,
         save_total_limit=cfg.save_total_limit,
         load_best_model_at_end=cfg.load_best_model_at_end,
         metric_for_best_model=cfg.metric_for_best_model,
         greater_is_better=cfg.greater_is_better,
         report_to=cfg.report_to,
         seed=cfg.seed,
-        dataset_text_field="text",
-        max_seq_length=cfg.max_seq_length,
         gradient_checkpointing=True,
         gradient_checkpointing_kwargs={"use_reentrant": False},
+        remove_unused_columns=False,
     )
+    # Transformers >=4.41 dùng eval_strategy; cũ hơn dùng evaluation_strategy.
+    import inspect
+    ta_fields = set(inspect.signature(TrainingArguments).parameters)
+    if "eval_strategy" in ta_fields:
+        targs_kwargs["eval_strategy"] = cfg.eval_strategy
+    else:
+        targs_kwargs["evaluation_strategy"] = cfg.eval_strategy
+    targs = TrainingArguments(**targs_kwargs)
 
-    # 7. Trainer
-    trainer = SFTTrainer(
+    # 7. Trainer — tương thích cả tokenizer= (cũ) lẫn processing_class= (Trainer mới).
+    trainer_kwargs: dict[str, Any] = dict(
         model=model,
-        args=sft_args,
+        args=targs,
         train_dataset=train_ds,
         eval_dataset=val_ds,
-        peft_config=peft_config,
-        tokenizer=tokenizer,
         data_collator=collator,
     )
+    trainer_params = set(inspect.signature(Trainer.__init__).parameters)
+    if "processing_class" in trainer_params:
+        trainer_kwargs["processing_class"] = tokenizer
+    elif "tokenizer" in trainer_params:
+        trainer_kwargs["tokenizer"] = tokenizer
+    trainer = Trainer(**trainer_kwargs)
 
     # 8. Train + save adapter
     trainer.train()
     out = Path(cfg.output_dir)
-    trainer.save_model(str(out))
+    trainer.model.save_pretrained(str(out))   # PEFT save adapter only
     tokenizer.save_pretrained(str(out))
     print(f"[sft] adapter saved to {out.resolve()}")
     return str(out)

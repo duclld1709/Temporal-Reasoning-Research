@@ -78,9 +78,9 @@ def resolve_assistant_response_template(
 ) -> str:
     """Trả về chuỗi đánh dấu mở turn assistant trong chat template.
 
-    Dùng cho ``DataCollatorForCompletionOnlyLM`` để mask loss tới user, chỉ tính
-    loss trên phần assistant. Resolve động bằng cách so sánh template với và
-    không có ``add_generation_prompt`` để tách phần đuôi.
+    Dùng để mask loss tới user, chỉ tính loss trên phần assistant. Resolve động
+    bằng cách so sánh template với và không có ``add_generation_prompt`` để tách
+    phần đuôi.
     """
     dummy_user = [{"role": "user", "content": "x"}]
     with_gen = tokenizer.apply_chat_template(
@@ -93,3 +93,68 @@ def resolve_assistant_response_template(
         # Fallback: hardcode cho Qwen chat-ml format.
         return "<|im_start|>assistant\n"
     return with_gen[len(without_gen):]
+
+
+class CompletionOnlyCollator:
+    """Collator: pad batch, mask label cho phần prompt, chỉ tính loss trên assistant.
+
+    Thay thế cho ``trl.DataCollatorForCompletionOnlyLM`` (đã được loại bỏ trong
+    các phiên bản TRL gần đây). Tìm subsequence ``response_token_ids`` trong
+    ``input_ids`` của từng sample, set labels[:end_of_response] = -100. Nếu
+    không tìm thấy template (ví dụ sample bị truncate quá ngắn) → mask toàn bộ
+    để sample đó không đóng góp loss.
+    """
+
+    def __init__(
+        self,
+        tokenizer: "PreTrainedTokenizerBase",
+        response_template: str,
+        pad_to_multiple_of: int | None = 8,
+    ):
+        if tokenizer.pad_token_id is None:
+            raise ValueError("Tokenizer must have pad_token_id set.")
+        self.tokenizer = tokenizer
+        self.pad_to_multiple_of = pad_to_multiple_of
+        self.response_template = response_template
+        self.response_token_ids = tokenizer.encode(
+            response_template, add_special_tokens=False
+        )
+        if not self.response_token_ids:
+            raise ValueError(
+                f"Empty tokenization for response_template={response_template!r}"
+            )
+
+    def __call__(self, examples):
+        import torch
+
+        # Pad input_ids + attention_mask (right-padding).
+        batch = self.tokenizer.pad(
+            [{"input_ids": ex["input_ids"]} for ex in examples],
+            padding=True,
+            pad_to_multiple_of=self.pad_to_multiple_of,
+            return_tensors="pt",
+        )
+        input_ids = batch["input_ids"]
+        attention_mask = batch["attention_mask"]
+        labels = input_ids.clone()
+        # Mask pad tokens.
+        labels[attention_mask == 0] = -100
+        # Mask prompt tokens (tới hết response_template) cho mỗi sample.
+        rti = self.response_token_ids
+        n = len(rti)
+        for i in range(input_ids.size(0)):
+            ids = input_ids[i].tolist()
+            cut = -1
+            for start in range(len(ids) - n + 1):
+                if ids[start : start + n] == rti:
+                    cut = start + n
+                    break
+            if cut < 0:
+                labels[i, :] = -100  # template not found → don't train on this sample
+            else:
+                labels[i, :cut] = -100
+        return {
+            "input_ids": input_ids,
+            "attention_mask": attention_mask,
+            "labels": labels,
+        }

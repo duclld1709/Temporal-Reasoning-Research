@@ -1,0 +1,7 @@
+timestamp,experiment,method,dataset,k_shot,enable_thinking,seed,model,adapter_path,num_samples,avg_inference_sec,metric,score,parse_fail
+2026-04-30T02:53:16,zero_shot_vlsp_date_ft,zero_shot,vlsp_date,0,False,42,Qwen/Qwen3-8B,/content/checkpoints/lora_vlsp_date_bf16,1500,1.0671,accuracy,0.988,0
+2026-04-30T03:20:07,few_shot_vlsp_date_k3_ft,few_shot,vlsp_date,3,False,42,Qwen/Qwen3-8B,/content/checkpoints/lora_vlsp_date_bf16,1500,1.0737,accuracy,0.984,0
+2026-04-30T03:48:09,dynamic_few_shot_vlsp_date_k3_ft,dynamic_few_shot,vlsp_date,3,False,42,Qwen/Qwen3-8B,/content/checkpoints/lora_vlsp_date_bf16,1500,1.1109,accuracy,0.9807,0
+2026-04-30T03:53:11,zero_shot_vlsp_duration_ft,zero_shot,vlsp_duration,0,False,42,Qwen/Qwen3-8B,/content/checkpoints/lora_vlsp_date_bf16,1500,0.2009,f1,0.7247,0.701,0.75,0
+2026-04-30T03:58:15,few_shot_vlsp_duration_k4_ft,few_shot,vlsp_duration,4,False,42,Qwen/Qwen3-8B,/content/checkpoints/lora_vlsp_date_bf16,1500,0.2026,f1,0.7456,0.6984,0.7997,0
+2026-04-30T04:03:51,dynamic_few_shot_vlsp_duration_k4_ft,dynamic_few_shot,vlsp_duration,4,False,42,Qwen/Qwen3-8B,/content/checkpoints/lora_vlsp_date_bf16,1500,0.2185,f1,0.7514,0.7554,0.7473,0

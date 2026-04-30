@@ -85,6 +85,13 @@ def _summary_row(cfg: RunConfig, metrics: dict, avg_time: float, n: int) -> dict
         "num_samples": n,
         "avg_inference_sec": round(avg_time, 4),
     }
+    # Luôn xuất đủ 4 cột để summary.csv giữ schema cố định bất kể task
+    # (precision/recall = "" với accuracy task) — nếu không, header dựa trên row
+    # đầu tiên sẽ thiếu cột khi rows sau có metric khác.
+    row["metric"] = ""
+    row["score"] = ""
+    row["precision"] = ""
+    row["recall"] = ""
     if "f1" in metrics:
         row["metric"] = "f1"
         row["score"] = round(metrics["f1"], 4)
